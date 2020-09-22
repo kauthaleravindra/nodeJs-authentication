@@ -7,7 +7,7 @@ const UserModel = require("./model/model");
 
 /** Mongodb config**/
 const connectionURL =
-  "mongodb+srv://Ravindra:Y9MU89QY4WGWcmH@cluster1.ktlzo.mongodb.net/to-do-app?retryWrites=true&w=majority";
+  "mongodb+srv://name:psw@cluster1.ktlzo.mongodb.net/to-do-app?retryWrites=true&w=majority";
 
 mongoose.connect(connectionURL, {
   useUnifiedTopology: true,
